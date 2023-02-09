@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.logo {
+    width: 50px;
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    flex: 1;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 3px;
+    margin-bottom: 0.2px;
+    padding: 1%;
+    background-color: #726b6b;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.btn {
+    margin-right: 3em;
+    margin: 2em;
+    padding: 1%;
+    font-weight: 700;
+    font-size: small;
+    color: #ffffff;
+    background-color: #d02727;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img {
+    width: 85%;
+    padding: 3% 7%;
+    cursor: pointer;
+}
+
+.bukite {
+    width: 40px;
+    cursor: pointer;
+}
+
+.location {
+    width: 200px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.heading {
+    color: #ffffff;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.deals {
+    background-color: #000;
+    width: 64.9em;
+    padding: 2%;
+}
+
+.heading1 {
+    color: #ffffff;
+    font-weight: bolder;
+    /* margin-left: 20px; */
+    background-color: #000;
+}
+
+.topdeal {
+    width: 67.6em;
+    cursor: pointer;
+}
+
+.end {
+    margin-top: -4px;
+    width: 67.6em;
+    cursor: pointer;
+}
